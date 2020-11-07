@@ -33,7 +33,7 @@ browser.find_element_by_xpath('/html/body/div[1]/section/nav/div[2]/div/div/div[
 time.sleep(5)
 userInput = browser.find_element_by_name('username')
 passInput = browser.find_element_by_name('password')
-userInput.send_keys('sakurafabo')
+userInput.send_keys('')
 passInput.send_keys('fagfagfag12')
 login = browser.find_element_by_tag_name('button')
 login.submit()
